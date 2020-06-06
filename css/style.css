@@ -1,0 +1,37 @@
+#avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 0 #282828;
+}
+
+.brand-text {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+.welcome-box {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+h2, h3, h4, h5, h6, p {
+  color: white;
+}
+
+header {
+  background-color: #161616;
+  box-shadow: 0 1px 0 #282828;
+}
+
+/*# sourceMappingURL=style.css.map */

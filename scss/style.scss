@@ -1,0 +1,38 @@
+$fontColor: white;
+$fontFamily: 'Courier New', Courier, monospace;
+
+#avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 0 #282828;
+}
+
+.brand-text {
+    font-family: $fontFamily;
+    font-weight: bolder;
+}
+
+.welcome-box {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+h1 {
+    color: $fontColor;
+    font-family: $fontFamily;
+    font-weight: bold;
+}
+
+h2, h3,h4, h5, h6, p {
+    color: $fontColor;
+}
+
+header {
+    background-color: #161616;
+    box-shadow: 0 1px 0 #282828;
+}
