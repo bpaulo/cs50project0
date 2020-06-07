@@ -1,16 +1,19 @@
-$fontColor: white;
+//$fontColor: white;
+$fontColor: black;
 $fontFamily: 'Courier New', Courier, monospace;
-
-#avatar {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 2px 0 #282828;
-}
 
 .brand-text {
     font-family: $fontFamily;
     font-weight: bolder;
+}
+
+.nav-text {
+    font-family: $fontFamily;
+    font-weight: bold;
+}
+
+.navbar-icon {
+    max-width: 36px;
 }
 
 .welcome-box {
@@ -19,7 +22,8 @@ $fontFamily: 'Courier New', Courier, monospace;
 }
 
 body {
-    background-color: #1c1c1c;
+    //background-color: #1c1c1c;
+    background-color: white;
 }
 
 h1 {
@@ -34,5 +38,4 @@ h2, h3,h4, h5, h6, p {
 
 header {
     background-color: #161616;
-    box-shadow: 0 1px 0 #282828;
 }
