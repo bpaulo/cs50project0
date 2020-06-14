@@ -7,13 +7,38 @@ $fontFamily: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
 
+footer p {
+    font-size: 12px;
+}
+
 .nav-text {
     font-family: $fontFamily;
     font-weight: bold;
 }
 
 .navbar-icon {
-    max-width: 36px;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-github {
+    background-image: url(../images/github-mark.png);
+    background-repeat: no-repeat;
+}
+
+.navbar-github:hover {
+    background-image: url(../images/github-mark-hover.png);
+    background-repeat: no-repeat;
+}
+
+.navbar-linkedin {
+    background-image: url(../images/linkedin-mark.png);
+    background-repeat: no-repeat;
+}
+
+.navbar-linkedin:hover {
+    background-image: url(../images/linkedin-mark-hover.png);
+    background-repeat: no-repeat;
 }
 
 .welcome-box {
