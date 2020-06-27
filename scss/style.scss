@@ -7,6 +7,17 @@ $fontFamily: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
 
+#brandmark-letter {
+    width: 32px;
+    height: 32px;
+    fill: blue;
+    stroke: blue;
+}
+
+.brandmark:hover {
+    fill: gray;
+}
+
 footer p {
     font-size: 12px;
 }

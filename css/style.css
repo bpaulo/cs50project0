@@ -3,6 +3,16 @@
   font-weight: bolder;
 }
 
+.brandmark-border {
+  stroke:#ffffff;
+  stroke-width:1;
+  stroke-opacity:1;
+}
+
+.brandmark-border:hover {
+  fill: gray;
+}
+
 footer p {
   font-size: 12px;
 }
