@@ -3,14 +3,14 @@
   font-weight: bolder;
 }
 
-svg {
+.logo {
   fill: white;
   width: 32px;
   height: 32px;
 }
 
-svg:hover {
-  fill: gray;
+.logo:hover {
+  fill: lightgray;
 }
 
 footer p {
@@ -23,28 +23,13 @@ footer p {
 }
 
 .navbar-icon {
-  width: 24px;
   height: 24px;
+  width: auto;
+  fill: white;
 }
 
-.navbar-github {
-  background-image: url(../images/github-mark.png);
-  background-repeat: no-repeat;
-}
-
-.navbar-github:hover {
-  background-image: url(../images/github-mark-hover.png);
-  background-repeat: no-repeat;
-}
-
-.navbar-linkedin {
-  background-image: url(../images/linkedin-mark.png);
-  background-repeat: no-repeat;
-}
-
-.navbar-linkedin:hover {
-  background-image: url(../images/linkedin-mark-hover.png);
-  background-repeat: no-repeat;
+.navbar-icon:hover {
+  fill: lightgray;
 }
 
 .welcome-box {
