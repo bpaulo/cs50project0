@@ -3,14 +3,14 @@
   font-weight: bolder;
 }
 
-.logo {
+#bp-logo {
   fill: white;
   width: 32px;
   height: 32px;
 }
 
-.logo:hover {
-  fill: lightgray;
+#bp-logo:hover {
+  fill:lightgray
 }
 
 footer p {
